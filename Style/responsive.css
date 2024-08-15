@@ -68,6 +68,49 @@ nav .menu-btn i{
 }
 .run{
     height: auto;
-    width: 100%;
+    width: 80%;
+    flex-direction: column;
 }
+.container{
+    width: 100%;
+    flex-direction: column;
+}
+.bmi-chart{
+    width: 80%;
+}
+.bmi-calculator{
+    width: 80%;
+}
+.last {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.last-p1, .last-p2, .last-p3 {
+    width: 100%;
+    text-align: center;
+}
+
+.last-p1 h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.last-p1 h6 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.last-p2 h2, .last-p3 h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.last-btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
 }

@@ -372,3 +372,6 @@ input, select{
     background-color:rgb(51, 49, 49);
     text-align: center;
 }
+.footer-text p{
+    background-color: #1e1e1e;
+}
